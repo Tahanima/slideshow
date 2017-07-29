@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Slideshow</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	</head>
+
+	<body id="pageBody">
+        <!-- Page Header -->
+	    <h1 id="bodyHeading">Anime Photo Slideshow</h1>
+        
+
+        <!-- Canvas to display image along with buttons to start, pause/resume and stop display -->
+        <div id="divCanvas">
+        	<canvas id="imgCanvas" width="800" height="500"></canvas>
+
+        	<div id="divButton">
+        	    <button id="btnDisplay" onclick="imgDisplay()">Start</button>
+        	    <button id="btnPause" onclick="pauseDisplay()">Pause/Resume</button>
+        	    <button id="btnStop" onclick="stopDisplay()">Stop</button>
+		    </div>
+        </div>
+	 
+		<script type="text/javascript" src="functionality.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,36 @@
+#pageBody{
+	background-image: url("images/background_img.gif");
+}
+
+#bodyHeading{
+	text-align: center; 
+	color: #409656;
+	font-family: "Aclonica";
+}
+
+#imgCanvas{
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    background: #b6d891;
+    padding: 25px; 
+}
+
+#divCanvas{
+	margin: 0;
+    position: absolute;
+    padding-bottom:1%;
+    top: 10%;
+    left: 20%;
+}
+
+button{
+    color: #fff;
+    text-shadow: -1px 1px #417cb8;
+    background-color: #409656;
+    border: solid 2px #409656;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Kalam";
+    font-weight: bold;
+    font-size: 16px;
+}

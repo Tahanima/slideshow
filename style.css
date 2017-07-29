@@ -15,11 +15,11 @@
     padding: 25px; 
 }
 
-#divCanvas{
+#pageContent{
 	margin: 0;
     position: absolute;
     padding-bottom:1%;
-    top: 10%;
+    top: 1%;
     left: 20%;
 }
 
